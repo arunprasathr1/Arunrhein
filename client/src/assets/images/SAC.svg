@@ -1,0 +1,61 @@
+<svg width="140.1" height="35.6" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 4 10">
+ <defs>
+  <linearGradient y2="1.000483" x2="0.5" y1="0" x1="0.5" id="SVGID_1_">
+   <stop stop-color="#00B8F1" offset="0"/>
+   <stop stop-color="#01B6F0" offset="0.016446"/>
+   <stop stop-color="#0D90D9" offset="0.3079"/>
+   <stop stop-color="#1775C8" offset="0.5782"/>
+   <stop stop-color="#1C65BF" offset="0.8173"/>
+   <stop stop-color="#1E5FBB" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <g id="svg_3">
+    <g id="svg_4">
+     <g id="svg_5">
+      <polyline id="svg_6" points="0,35.6 36.4,35.6 72,0 0,0 0,35.6     " fill="url(#SVGID_1_)" clip-rule="evenodd" fill-rule="evenodd"/>
+     </g>
+     <path id="svg_7" d="m42.7,6.7l-7.1,0l0,16.9l-6.1,-16.9l-6.1,0l-5.4,14.1c-0.6,-3.6 -4.2,-4.8 -7.1,-5.7c-1.9,-0.6 -3.9,-1.5 -3.9,-2.5c0,-0.8 1.1,-1.6 3.2,-1.5c1.4,0.1 2.7,0.2 5.2,1.4l2.5,-4.3c-2.3,-1.2 -5.4,-1.9 -8,-1.9l0,0c-3,0 -5.5,1 -7.1,2.6c-1.2,1.1 -1.8,2.6 -1.8,4.1c0,2.2 0.8,3.7 2.4,4.9c1.4,1 3.2,1.7 4.8,2.2c2,0.6 3.6,1.1 3.6,2.3c0,0.4 -0.2,0.8 -0.5,1.1c-0.5,0.5 -1.2,0.7 -2.3,0.7c-2,0 -3.5,-0.3 -5.9,-1.7l-2.1,4.5c2.4,1.3 5.2,2.1 8,2.1l0.4,0c2.5,0 4.5,-0.8 6.1,-2c0.1,-0.1 0.2,-0.1 0.3,-0.2l-0.8,1.8l6.4,0l1.1,-3.3c1.1,0.4 2.4,0.6 3.8,0.6c1.3,0 2.6,-0.2 3.7,-0.6l1,3.3l10.5,0l0,-6.8l2.3,0c5.5,0 8.8,-2.8 8.8,-7.5c0.1,-5.3 -3.1,-7.7 -9.9,-7.7zm-16.4,14.4c-0.8,0 -1.6,-0.1 -2.3,-0.4l2.2,-7.1l0,0l2.2,7.1c-0.5,0.3 -1.2,0.4 -2.1,0.4zm16.8,-4.1l-1.6,0l0,-5.7l1.6,0c2.1,0 3.7,0.7 3.7,2.8c0.1,2.3 -1.6,2.9 -3.7,2.9" fill="#FFFFFF" clip-rule="evenodd" fill-rule="evenodd"/>
+    </g>
+   </g>
+   <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_11" y="17.799999" x="69.300172" stroke-width="0" stroke="#000000" fill="#3b5e7c">Analytics</text>
+   <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_12" y="32.79992" x="68.800176" stroke-width="0" stroke="#000000" fill="#3b5e7c">Cloud</text>
+   <defs>
+    <linearGradient id="svg_31" x1="0.5" y1="0" x2="0.5" y2="1.000483">
+     <stop offset="0" stop-color="#00B8F1"/>
+     <stop offset="0.016446" stop-color="#01B6F0"/>
+     <stop offset="0.3079" stop-color="#0D90D9"/>
+     <stop offset="0.5782" stop-color="#1775C8"/>
+     <stop offset="0.8173" stop-color="#1C65BF"/>
+     <stop offset="1" stop-color="#1E5FBB"/>
+    </linearGradient>
+   </defs>
+   <g id="svg_36">
+    <g transform="matrix(0.02869761425829953,0,0,0.02869761425829953,0,0) " id="svg_34">
+     <title transform="translate(3196.3525390625,0) translate(0,420.2606201171875) ">background</title>
+     <rect x="3195.352539" y="419.26062" width="582" height="402" id="svg_32" fill="none"/>
+    </g>
+    <g transform="matrix(0.02869761425829953,0,0,0.02869761425829953,0,0) " id="svg_35">
+     <title transform="translate(3196.3525390625,0) translate(0,420.2606201171875) ">Layer 1</title>
+     <g id="svg_24">
+      <g id="svg_26">
+       <g id="svg_27">
+        <g id="svg_29">
+         <polyline fill-rule="evenodd" clip-rule="evenodd" fill="url(#svg_31)" points="3196.3525390625,455.8606262207031 3232.752540588379,455.8606262207031 3268.3525390625,420.2606201171875 3196.3525390625,420.2606201171875 3196.3525390625,455.8606262207031 " id="svg_30"/>
+        </g>
+        <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="m3239.052539,426.96062l-7.1,0l0,16.9l-6.1,-16.9l-6.1,0l-5.4,14.1c-0.6,-3.6 -4.2,-4.8 -7.1,-5.7c-1.9,-0.6 -3.9,-1.5 -3.9,-2.5c0,-0.8 1.1,-1.6 3.2,-1.5c1.4,0.1 2.7,0.2 5.2,1.4l2.5,-4.3c-2.3,-1.2 -5.4,-1.9 -8,-1.9l0,0c-3,0 -5.5,1 -7.1,2.6c-1.2,1.1 -1.8,2.6 -1.8,4.1c0,2.2 0.8,3.7 2.4,4.9c1.4,1 3.2,1.7 4.8,2.2c2,0.6 3.6,1.1 3.6,2.3c0,0.4 -0.2,0.8 -0.5,1.1c-0.5,0.5 -1.2,0.7 -2.3,0.7c-2,0 -3.5,-0.3 -5.9,-1.7l-2.1,4.5c2.4,1.3 5.2,2.1 8,2.1l0.4,0c2.5,0 4.5,-0.8 6.1,-2c0.1,-0.1 0.2,-0.1 0.3,-0.2l-0.8,1.8l6.4,0l1.1,-3.3c1.1,0.4 2.4,0.6 3.8,0.6c1.3,0 2.6,-0.2 3.7,-0.6l1,3.3l10.5,0l0,-6.8l2.3,0c5.5,0 8.8,-2.8 8.8,-7.5c0.1,-5.3 -3.1,-7.7 -9.9,-7.7zm-16.4,14.4c-0.8,0 -1.6,-0.1 -2.3,-0.4l2.2,-7.1l0,0l2.2,7.1c-0.5,0.3 -1.2,0.4 -2.1,0.4zm16.8,-4.1l-1.6,0l0,-5.7l1.6,0c2.1,0 3.7,0.7 3.7,2.8c0.1,2.3 -1.6,2.9 -3.7,2.9" id="svg_28"/>
+       </g>
+      </g>
+      <text fill="#3b5e7c" stroke="#000000" stroke-width="0" x="3253.152778" y="444.060587" id="svg_25" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" font-weight="bold">ANALYTICS CLOUD</text>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

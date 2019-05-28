@@ -1,0 +1,173 @@
+{
+    "name": "S/4 -> BW/4 -> SAC",
+    "description": "S/4 -> Generate sales orders (90 orders) using that data generation report. New records will get added to the table in S/4H system.\n BW/4 -> Dataflow through the BW models (Open ODS views) and Queries which are already created based on S/4HANA CDS views.\n SAC -> SAC dashboard shows the updated data records.",
+    "info": {
+        "S4": {
+            "item": [
+                {
+                    "ID": "67837800100900007903",
+                    "NAME": "SF EMPLOYEECENTRAL INTEGRATION",
+                    "VERSION": "1210.02",
+                    "VENDOR": "sap.com",
+                    "DESCRIPT": "SFSF EC INTEGRATION 1210"
+                },
+                {
+                    "ID": "73554900100900001513",
+                    "NAME": "SAP S4-CONCUR INTEGRATION",
+                    "VERSION": "1.0",
+                    "VENDOR": "sap.com",
+                    "DESCRIPT": "SAP S4-CONCUR INTEGRATION 1.0"
+                },
+                {
+                    "ID": "73554900100900001651",
+                    "NAME": "SAP FIORI FRONT-END SERVER",
+                    "VERSION": "4.0",
+                    "VENDOR": "sap.com",
+                    "DESCRIPT": "SAP FIORI FRONT-END SERVER 4.0"
+                },
+                {
+                    "ID": "73554900100900001778",
+                    "NAME": "NW FOR S4HANA ONPREMISE",
+                    "VERSION": "1709",
+                    "VENDOR": "sap.com",
+                    "DESCRIPT": "NW 7.52 FOR S/4HANA 1709"
+                },
+                {
+                    "ID": "73555000100900000703",
+                    "NAME": "SAP FIORI FOR S4HANA",
+                    "VERSION": "1610",
+                    "VENDOR": "sap.com",
+                    "DESCRIPT": "SAP FIORI FOR SAP S/4HANA 1610"
+                },
+                {
+                    "ID": "73555000100900001152",
+                    "NAME": "S4HANA ON PREMISE",
+                    "VERSION": "1709",
+                    "VENDOR": "sap.com",
+                    "DESCRIPT": "SAP S/4HANA 1709"
+                }
+            ]
+        },
+        "BW": {
+            "item": [
+                {
+                    "ID": "73554900100900001244",
+                    "NAME": "BW4HANA",
+                    "VERSION": "100.08 (03/2018)",
+                    "VENDOR": "sap.com",
+                    "DESCRIPT": "SAP BW/4HANA 1.0"
+                }
+            ]
+        }
+    },
+    "graph": [
+        {
+            "id": "S41",
+            "displayName": "S4",
+            "displaySequence": 0
+        },
+        {
+            "id": "BW1",
+            "displayName": "BW",
+            "displaySequence": 1
+        },
+        {
+            "id": "SAC1",
+            "displayName": "SAC",
+            "displaySequence": 2
+        }
+    ],
+    "stats": {
+        "current": {
+            "id": "CF1DDFC733A34CCD",
+            "initTime": "Mon, 15 Oct 2018 08:55:22 GMT",
+            "startTime": "Mon, 15 Oct 2018 08:55:22 GMT",
+            "status": "Completed",
+            "endTime": "Mon, 15 Oct 2018 08:56:40 GMT",
+            "message": "Graph execution completed successfully"
+        },
+        "history": {
+            "id": "4A8C01CF9463B845",
+            "initTime": "Fri, 21 Sep 2018 07:35:10 GMT",
+            "startTime": "Fri, 21 Sep 2018 07:35:10 GMT",
+            "status": "Completed",
+            "endTime": "Fri, 21 Sep 2018 07:36:25 GMT",
+            "message": "Graph execution completed successfully"
+        }
+    },
+    "elements": {
+        "S41": {
+            "config": [
+                {
+                    "name": "Hostname",
+                    "type": "text",
+                    "value": "mo-c14bd36bc.mo.sap.corp",
+                    "seq": 0
+                },
+                {
+                    "name": "Port",
+                    "type": "number",
+                    "value": "8000",
+                    "seq": 1
+                },
+                {
+                    "name": "Username",
+                    "type": "text",
+                    "value": "E2E_REPO",
+                    "seq": 2
+                },
+                {
+                    "name": "Password",
+                    "type": "password",
+                    "value": "Welcome1",
+                    "seq": 3
+                },
+                {
+                    "name": "Function Module",
+                    "type": "text",
+                    "value": "-",
+                    "seq": 4
+                }
+            ]
+        },
+        "BW1": {
+            "config": [
+                {
+                    "name": "Hostname",
+                    "type": "text",
+                    "value": "mo-f7cd8b8a5.mo.sap.corp",
+                    "seq": 0
+                },
+                {
+                    "name": "Port",
+                    "type": "number",
+                    "value": "50000",
+                    "seq": 1
+                },
+                {
+                    "name": "Username",
+                    "type": "text",
+                    "value": "E2E_REPO",
+                    "seq": 2
+                },
+                {
+                    "name": "Password",
+                    "type": "password",
+                    "value": "Welcome1",
+                    "seq": 3
+                },
+                {
+                    "name": "ProcessChain Name",
+                    "type": "text",
+                    "value": "DL_CALL_S4H_PC",
+                    "seq": 4
+                }
+            ]
+        },
+        "SAC1": {
+            "config": {
+                "storyID": "6EA432D92BF92887CBFEE668ED25FDE9"
+            }
+        }
+    }
+}

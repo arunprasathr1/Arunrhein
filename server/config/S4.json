@@ -1,0 +1,97 @@
+{
+  "name": "S/4 -> BW/4 -> SAC",
+  "description": "S/4 -> BW/4 -> SAC",
+  "graph": [
+    {
+      "id": "S41",
+      "displayName": "S4",
+      "displaySequence": 0
+    }
+  ],
+  "stats": {
+    "current": {
+      "id": "cc787b01b6261c7c",
+      "initTime": "2018-9-12 14:34:25",
+      "startTime": "2018-9-12 14:34:25",
+      "status": "Completed",
+      "endTime": "2018-9-12 14:34:48"
+    },
+    "history": {
+      "id": "222fdc4b06ca2d20",
+      "initTime": "2018-9-12 14:24:19",
+      "startTime": "2018-9-12 14:24:19",
+      "status": "Completed",
+      "endTime": "2018-9-12 14:24:42"
+    }
+  },
+  "elements": {
+    "S41": {
+      "config": [
+        {
+          "name": "Hostname",
+          "type": "text",
+          "value": "mo-c14bd36bc.mo.sap.corp:8000",
+          "seq": 0
+        },
+        {
+          "name": "Port",
+          "type": "number",
+          "value": "8000",
+          "seq": 1
+        },
+        {
+          "name": "Username",
+          "type": "text",
+          "value": "E2E_REPO",
+          "seq": 2
+        },
+        {
+          "name": "Password",
+          "type": "password",
+          "value": "Welcome1",
+          "seq": 3
+        },
+        {
+          "name": "Function Module",
+          "type": "text",
+          "value": "Z_S4_DATA_CREATION",
+          "seq": 4
+        }
+      ]
+    },
+    "BW1": {
+      "config": [
+        {
+          "name": "Hostname",
+          "type": "text",
+          "value": "mo-f7cd8b8a5.mo.sap.corp",
+          "seq": 0
+        },
+        {
+          "name": "Port",
+          "type": "number",
+          "value": "50000",
+          "seq": 1
+        },
+        {
+          "name": "Username",
+          "type": "text",
+          "value": "USER_BDH",
+          "seq": 2
+        },
+        {
+          "name": "Password",
+          "type": "password",
+          "value": "Test1234",
+          "seq": 3
+        },
+        {
+          "name": "ProcessChain Name",
+          "type": "text",
+          "value": "PC_DELTA_E2E_ODP",
+          "seq": 4
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "BW": {
+    "status": {
+      "method": "POST",
+      "entrypath": "/sap/bc/soap/rfc",
+      "data": "<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:urn='urn:sap-com:document:sap:rfc:functions'><soapenv:Header/><soapenv:Body><urn:OCS_GET_INSTALLED_SWPRODUCTS></urn:OCS_GET_INSTALLED_SWPRODUCTS></soapenv:Body></soapenv:Envelope>"
+    },
+    "trigger": {
+      "method": "POST",
+      "entrypath": "/sap/bc/soap/rfc?sap-client=001",
+      "data": "<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:urn='urn:sap-com:document:sap:rfc:functions'><soapenv:Header/><soapenv:Body><urn:RSPC_API_CHAIN_START><I_CHAIN>&val&</I_CHAIN></urn:RSPC_API_CHAIN_START></soapenv:Body></soapenv:Envelope>"
+    },
+    "jobstatus": {
+      "method": "POST",
+      "entrypath": "/sap/bc/soap/rfc?sap-client=001",
+      "data": "<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:urn='urn:sap-com:document:sap:rfc:functions'><soapenv:Header/><soapenv:Body><urn:RSPC_API_CHAIN_GET_STATUS><I_CHAIN>&val&</I_CHAIN><I_LOGID>&val2&</I_LOGID></urn:RSPC_API_CHAIN_GET_STATUS></soapenv:Body></soapenv:Envelope>"
+    }
+  },
+  "S4": {
+    "status": {
+      "method": "POST",
+      "entrypath": "/sap/bc/soap/rfc",
+      "data": "<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:urn='urn:sap-com:document:sap:rfc:functions'><soapenv:Header/><soapenv:Body><urn:OCS_GET_INSTALLED_SWPRODUCTS></urn:OCS_GET_INSTALLED_SWPRODUCTS></soapenv:Body></soapenv:Envelope>"
+    },
+    "trigger": {
+      "method": "POST",
+      "entrypath": "/sap/bc/soap/rfc",
+      "data": "<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:urn='urn:sap-com:document:sap:rfc:functions'><soapenv:Header/><soapenv:Body><urn:&val&></urn:&val&></soapenv:Body></soapenv:Envelope>"
+    },
+    "jobstatus": {
+      "method": "POST",
+      "entrypath": "/sap/bc/soap/rfc",
+      "data": ""
+    }
+  },
+  "ERP": {
+    "status": {
+      "method": "POST",
+      "entrypath": "/sap/bc/soap/rfc",
+      "data": "<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:urn='urn:sap-com:document:sap:rfc:functions'><soapenv:Header/><soapenv:Body><urn:OCS_GET_INSTALLED_SWPRODUCTS></urn:OCS_GET_INSTALLED_SWPRODUCTS></soapenv:Body></soapenv:Envelope>"
+    },
+    "trigger": {
+      "method": "POST",
+      "entrypath": "/sap/bc/soap/rfc",
+      "data": "<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:urn='urn:sap-com:document:sap:rfc:functions'><soapenv:Header/><soapenv:Body><urn:&val&></urn:&val&></soapenv:Body></soapenv:Envelope>"
+    },
+    "jobstatus": {
+      "method": "POST",
+      "entrypath": "/sap/bc/soap/rfc",
+      "data": ""
+    }
+  }
+}

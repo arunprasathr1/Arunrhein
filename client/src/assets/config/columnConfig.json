@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "id",
+    "DisplayName": "ID",
+    "onShrink": true,
+    "styleWidth": "10%",
+    "onShrinkWidth": "20%"
+  },
+  {
+    "Name": "Name",
+    "DisplayName": "Name",
+    "onShrink": true,
+    "styleWidth": "25%",
+    "onShrinkWidth": "90%"
+  },
+  {
+    "Name": "Description",
+    "DisplayName": "Description",
+    "onShrink": false,
+    "styleWidth": "65%",
+    "onShrinkWidth": "0%"
+  }
+]

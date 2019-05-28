@@ -1,0 +1,99 @@
+{
+    "name": "HDFS -> BW/4",
+    "description": "BW/4 -> Move the data from Cold storage to BW’s HANA.\n",
+    "info": {
+        "BW": {
+            "item": [
+                {
+                    "ID": "73554900100900001244",
+                    "NAME": "BW4HANA",
+                    "VERSION": "100.08 (03/2018)",
+                    "VENDOR": "sap.com",
+                    "DESCRIPT": "SAP BW/4HANA 1.0"
+                }
+            ]
+        }
+    },
+    "graph": [
+        {
+            "id": "HDFS1",
+            "displayName": "HDFS",
+            "displaySequence": 0
+        },
+        {
+            "id": "BW1",
+            "displayName": "BW",
+            "displaySequence": 1
+        }
+    ],
+    "stats": {
+        "current": {
+            "id": "3665D7E16D5FD5A1",
+            "initTime": "Tue, 25 Sep 2018 05:16:47 GMT",
+            "startTime": "Tue, 25 Sep 2018 05:16:47 GMT",
+            "status": "Completed",
+            "endTime": "Tue, 25 Sep 2018 05:17:05 GMT",
+            "message": "Graph execution completed successfully"
+        },
+        "history": {
+            "id": "26084CBA22D1F60E",
+            "initTime": "Fri, 21 Sep 2018 04:58:18 GMT",
+            "startTime": "Fri, 21 Sep 2018 04:58:18 GMT",
+            "status": "Completed",
+            "endTime": "Fri, 21 Sep 2018 04:58:33 GMT",
+            "message": "Graph execution completed successfully"
+        }
+    },
+    "elements": {
+        "HDFS1": {
+            "config": [
+                {
+                    "name": "Hostname",
+                    "type": "text",
+                    "value": "mo-8d0a0f529.mo.sap.corp",
+                    "seq": 0
+                },
+                {
+                    "name": "Port",
+                    "type": "number",
+                    "value": "8000",
+                    "seq": 1
+                }
+            ]
+        },
+        "BW1": {
+            "config": [
+                {
+                    "name": "Hostname",
+                    "type": "text",
+                    "value": "mo-f7cd8b8a5.mo.sap.corp",
+                    "seq": 0
+                },
+                {
+                    "name": "Port",
+                    "type": "number",
+                    "value": "50000",
+                    "seq": 1
+                },
+                {
+                    "name": "Username",
+                    "type": "text",
+                    "value": "E2E_REPO",
+                    "seq": 2
+                },
+                {
+                    "name": "Password",
+                    "type": "password",
+                    "value": "Welcome1",
+                    "seq": 3
+                },
+                {
+                    "name": "ProcessChain Name",
+                    "type": "text",
+                    "value": "DL_PC_COLD_TO_HOT",
+                    "seq": 4
+                }
+            ]
+        }
+    }
+}

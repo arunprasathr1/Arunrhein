@@ -1,0 +1,142 @@
+{
+  "name": "HDFS -> BW/4 -> HANA -> SAC",
+  "description": "",
+  "info": {
+    "BW1": {
+      "item": [
+        {
+          "ID": "73554900100900001244",
+          "NAME": "BW4HANA",
+          "VERSION": "100",
+          "VENDOR": "sap.com",
+          "DESCRIPT": "SAP BW/4HANA 1.0"
+        }
+      ]
+    }
+  },
+  "graph": [
+    {
+      "id": "BW1",
+      "displayName": "BW",
+      "displaySequence": 1
+    },
+    {
+      "id": "HDFS1",
+      "displayName": "HDFS",
+      "displaySequence": 0
+    },
+    {
+      "id": "HANA1",
+      "displayName": "HANA",
+      "displaySequence": 2
+    },
+    {
+      "id": "SAC1",
+      "displayName": "SAC",
+      "displaySequence": 3
+    }
+  ],
+  "stats": {
+    "current": {
+      "id": "--",
+      "initTime": "--",
+      "startTime": "--",
+      "status": "--",
+      "endTime": "--",
+      "message": "Click on SAP Cloud Analytics to view Dashboard"
+    },
+    "history": {
+      "id": "--",
+      "initTime": "--",
+      "startTime": "--",
+      "status": "--",
+      "endTime": "--",
+      "message": "--"
+    }
+  },
+  "elements": {
+    "HDFS1": {
+      "config": [
+        {
+          "name": "Hostname",
+          "type": "text",
+          "value": "mo-8d0a0f529.mo.sap.corp",
+          "seq": 0
+        },
+        {
+          "name": "Port",
+          "type": "number",
+          "value": "8000",
+          "seq": 1
+        }
+      ]
+    },
+    "BW1": {
+      "config": [
+        {
+          "name": "Hostname",
+          "type": "text",
+          "value": "mo-f7cd8b8a5.mo.sap.corp",
+          "seq": 0
+        },
+        {
+          "name": "Port",
+          "type": "number",
+          "value": "50000",
+          "seq": 1
+        },
+        {
+          "name": "Username",
+          "type": "text",
+          "value": "E2E_REPO",
+          "seq": 2
+        },
+        {
+          "name": "Password",
+          "type": "password",
+          "value": "Welcome1",
+          "seq": 3
+        },
+        {
+          "name": "ProcessChain Name",
+          "type": "text",
+          "value": "-",
+          "seq": 4
+        }
+      ]
+    },
+    "HANA1": {
+      "config": [
+        {
+          "name": "Hostname",
+          "type": "text",
+          "value": "mo-a24352e76.mo.sap.corp",
+          "seq": 0
+        },
+        {
+          "name": "Instance",
+          "type": "number",
+          "value": "00",
+          "seq": 1
+        },
+        {
+          "name": "Username",
+          "type": "text",
+          "value": "E2E_REPO",
+          "seq": 2
+        },
+        {
+          "name": "Password",
+          "type": "password",
+          "value": "Welcome1",
+          "seq": 3
+        }
+      ]
+    },
+    "SAC1": {
+      "config": {
+        "storyID": "ECE51ADBABAD9B976FDB6207D48C067A"
+      }
+    }
+  }
+}

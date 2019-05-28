@@ -1,0 +1,152 @@
+{
+    "name": "ERP -> BW/4 -> SAC",
+    "description": "ERP -> Load data using that data generation report- New records will get added to the table in SH8 ERP system.\n BW/4 -> Run process chain which will load the delta records to ADSO in BW1 system.\n SAC -> Refresh of the dashboard in SAC will show the latest updated records.",
+    "info": {
+        "ERP": {
+            "item": [
+                {
+                    "ID": "01200314690900005013",
+                    "NAME": "EHP7 FOR SAP ERP 6.0",
+                    "VERSION": "EHP7 FOR SAP ERP 6.0",
+                    "VENDOR": "sap.com",
+                    "DESCRIPT": "EHP7 FOR SAP ERP 6.0"
+                },
+                {
+                    "ID": "01200615320900001296",
+                    "NAME": "SAP ERP",
+                    "VERSION": "2005",
+                    "VENDOR": "sap.com",
+                    "DESCRIPT": "SAP ERP 6.0"
+                },
+                {
+                    "ID": "67838200100900005868",
+                    "NAME": "SAP NETWEAVER",
+                    "VERSION": "7.4",
+                    "VENDOR": "sap.com",
+                    "DESCRIPT": "SAP NETWEAVER 7.4"
+                }
+            ]
+        },
+        "BW": {
+            "item": [
+                {
+                    "ID": "73554900100900001244",
+                    "NAME": "BW4HANA",
+                    "VERSION": "100.08 (03/2018)",
+                    "VENDOR": "sap.com",
+                    "DESCRIPT": "SAP BW/4HANA 1.0"
+                }
+            ]
+        }
+    },
+    "graph": [
+        {
+            "id": "S41",
+            "displayName": "ERP",
+            "displaySequence": 0
+        },
+        {
+            "id": "BW1",
+            "displayName": "BW",
+            "displaySequence": 1
+        },
+        {
+            "id": "SAC1",
+            "displayName": "SAC",
+            "displaySequence": 2
+        }
+    ],
+    "stats": {
+        "current": {
+            "id": "2789814F584D81A1",
+            "initTime": "Fri, 21 Sep 2018 06:24:19 GMT",
+            "startTime": "Fri, 21 Sep 2018 06:24:19 GMT",
+            "status": "Completed",
+            "endTime": "Fri, 21 Sep 2018 06:24:38 GMT",
+            "message": "Graph execution completed successfully"
+        },
+        "history": {
+            "id": "36D81FE37511C774",
+            "initTime": "Fri, 21 Sep 2018 05:31:54 GMT",
+            "startTime": "Fri, 21 Sep 2018 05:31:54 GMT",
+            "status": "Completed",
+            "endTime": "Fri, 21 Sep 2018 05:32:14 GMT",
+            "message": "Graph execution completed successfully"
+        }
+    },
+    "elements": {
+        "S41": {
+            "config": [
+                {
+                    "name": "Hostname",
+                    "type": "text",
+                    "value": "mo-8d0a0f529.mo.sap.corp",
+                    "seq": 0
+                },
+                {
+                    "name": "Port",
+                    "type": "number",
+                    "value": "8000",
+                    "seq": 1
+                },
+                {
+                    "name": "Username",
+                    "type": "text",
+                    "value": "E2E_REPO",
+                    "seq": 2
+                },
+                {
+                    "name": "Password",
+                    "type": "password",
+                    "value": "Welcome1",
+                    "seq": 3
+                },
+                {
+                    "name": "Function Module",
+                    "type": "text",
+                    "value": "Z_BW_DATA_CREATION",
+                    "seq": 4
+                }
+            ]
+        },
+        "BW1": {
+            "config": [
+                {
+                    "name": "Hostname",
+                    "type": "text",
+                    "value": "mo-f7cd8b8a5.mo.sap.corp",
+                    "seq": 0
+                },
+                {
+                    "name": "Port",
+                    "type": "number",
+                    "value": "50000",
+                    "seq": 1
+                },
+                {
+                    "name": "Username",
+                    "type": "text",
+                    "value": "E2E_REPO",
+                    "seq": 2
+                },
+                {
+                    "name": "Password",
+                    "type": "password",
+                    "value": "Welcome1",
+                    "seq": 3
+                },
+                {
+                    "name": "ProcessChain Name",
+                    "type": "text",
+                    "value": "PC_DELTA_E2E_ODP",
+                    "seq": 4
+                }
+            ]
+        },
+        "SAC1": {
+            "config": {
+                "storyID": "9FF4BAD97240A99933F2F6FFF50FE4A1"
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "51312D9BBD9B0E8B",
+  "ScenarioId": "4",
+  "initTime": "2018-12-04 03:24:50.341Z",
+  "startTime": "2018-12-04 03:24:50.695Z",
+  "endTime": "--",
+  "flow": ["BW1"],
+  "elements": {
+    "HDFS1": {
+      "startTime": "--",
+      "endTime": "--",
+      "status": "--",
+      "jobId": "NA",
+      "sysType": "HDFS",
+      "config": { "destination": "-", "task": "-" }
+    },
+    "BW1": {
+      "startTime": "2018-12-04 03:24:50.695Z",
+      "endTime": "Tue, 04 Dec 2018 03:24:53 GMT",
+      "status": "Ok",
+      "jobId": "DSIOATAVW3CSYYHW0TPWXK3B0",
+      "sysType": "BW",
+      "config": { "destination": "abapbw1", "task": "DL_PC_COLD_TO_HOT" },
+      "info": {
+        "item": [
+          {
+            "ID": "73554900100900001244",
+            "NAME": "BW4HANA",
+            "VERSION": "100.08 (03/2018)",
+            "VENDOR": "sap.com",
+            "DESCRIPT": "SAP BW/4HANA 1.0"
+          }
+        ]
+      }
+    }
+  },
+  "req": ""
+}

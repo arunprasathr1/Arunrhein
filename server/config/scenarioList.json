@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "Status": "Completed",
+        "Name": "ERP -> BW/4 -> SAC",
+        "Industry": "",
+        "Description": "ERP -> Load data using that data generation report- New records will get added to the table in SH8 ERP system.\n BW/4 -> Run process chain which will load the delta records to ADSO in BW1 system.\n SAC -> Refresh of the dashboard in SAC will show the latest updated records.",
+        "Path": "./config/ERP_BW4_SAC.json"
+    },
+    {
+        "id": 2,
+        "Status": "Completed",
+        "Name": "S/4 -> BW/4 -> SAC",
+        "Industry": "",
+        "Description": "S/4 -> Generate sales orders (90 orders) using that data generation report. New records will get added to the table in S/4H system.\n BW/4 -> Dataflow through the BW models (Open ODS views) and Queries which are already created based on S/4HANA CDS views.\n SAC -> SAC dashboard shows the updated data records.",
+        "Path": "./config/S4_BW4_SAC.json"
+    },
+    {
+        "id": 3,
+        "Status": "Completed",
+        "Name": "BW/4 -> HDFS -> SAC",
+        "Industry": "",
+        "Description": "BW/4 -> Move the data from Hot storage(BW’s HANA) to Hadoop.\n SAC -> SAC dashboard created on the Hadoop table will show the moved records.\n BW/4 -> Manually move back the data from the Hadoop to HANA.",
+        "Path": "./config/BW4_HDFS_SAC.json"
+    },
+    {
+        "id": 4,
+        "Status": "Completed",
+        "Name": "HDFS -> BW/4",
+        "Industry": "",
+        "Description": "BW/4 -> Move the data from Cold storage to BW’s HANA.",
+        "Path": "./config/HDFS_BW4.json"
+    }
+]

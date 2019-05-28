@@ -1,0 +1,109 @@
+{
+    "name": "BW/4 -> HDFS -> SAC",
+    "description": "BW/4 -> Move the data from Hot storage(BW’s HANA) to Hadoop.\n SAC -> SAC dashboard created on the Hadoop table will show the moved records.\n BW/4 -> Manually move back the data from the Hadoop to HANA.",
+    "info": {
+        "BW": {
+            "item": [
+                {
+                    "ID": "73554900100900001244",
+                    "NAME": "BW4HANA",
+                    "VERSION": "100.08 (03/2018)",
+                    "VENDOR": "sap.com",
+                    "DESCRIPT": "SAP BW/4HANA 1.0"
+                }
+            ]
+        }
+    },
+    "graph": [
+        {
+            "id": "BW1",
+            "displayName": "BW",
+            "displaySequence": 0
+        },
+        {
+            "id": "HDFS1",
+            "displayName": "HDFS",
+            "displaySequence": 1
+        },
+        {
+            "id": "SAC1",
+            "displayName": "SAC",
+            "displaySequence": 2
+        }
+    ],
+    "stats": {
+        "current": {
+            "id": "C27C11DBD13365E4",
+            "initTime": "Fri, 21 Sep 2018 04:55:26 GMT",
+            "startTime": "Fri, 21 Sep 2018 04:55:26 GMT",
+            "status": "Completed",
+            "endTime": "Fri, 21 Sep 2018 04:57:08 GMT",
+            "message": "Graph execution completed successfully"
+        },
+        "history": {
+            "id": "71AC85B9E3888D7B",
+            "initTime": "Tue, 18 Sep 2018 06:21:19 GMT",
+            "startTime": "Tue, 18 Sep 2018 06:21:19 GMT",
+            "status": "Completed",
+            "endTime": "Tue, 18 Sep 2018 06:22:52 GMT",
+            "message": "Graph execution completed successfully"
+        }
+    },
+    "elements": {
+        "HDFS1": {
+            "config": [
+                {
+                    "name": "Hostname",
+                    "type": "text",
+                    "value": "mo-8d0a0f529.mo.sap.corp",
+                    "seq": 0
+                },
+                {
+                    "name": "Port",
+                    "type": "number",
+                    "value": "8000",
+                    "seq": 1
+                }
+            ]
+        },
+        "BW1": {
+            "config": [
+                {
+                    "name": "Hostname",
+                    "type": "text",
+                    "value": "mo-f7cd8b8a5.mo.sap.corp",
+                    "seq": 0
+                },
+                {
+                    "name": "Port",
+                    "type": "number",
+                    "value": "50000",
+                    "seq": 1
+                },
+                {
+                    "name": "Username",
+                    "type": "text",
+                    "value": "E2E_REPO",
+                    "seq": 2
+                },
+                {
+                    "name": "Password",
+                    "type": "password",
+                    "value": "Welcome1",
+                    "seq": 3
+                },
+                {
+                    "name": "ProcessChain Name",
+                    "type": "text",
+                    "value": "DTO_CHECK_PC",
+                    "seq": 4
+                }
+            ]
+        },
+        "SAC1": {
+            "config": {
+                "storyID": "85ECDADB4C350DD0DB8E363D74B7D1C9"
+            }
+        }
+    }
+}

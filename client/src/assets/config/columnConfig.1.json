@@ -1,0 +1,37 @@
+[
+  {
+    "Name": "id",
+    "DisplayName": "ID",
+    "onShrink": true,
+    "styleWidth": "10%",
+    "onShrinkWidth": "20%"
+  },
+  {
+    "Name": "Name",
+    "DisplayName": "Name",
+    "onShrink": true,
+    "styleWidth": "25%",
+    "onShrinkWidth": "90%"
+  },
+  {
+    "Name": "Industry",
+    "DisplayName": "Industry",
+    "onShrink": false,
+    "styleWidth": "0%",
+    "onShrinkWidth": "0%"
+  },
+  {
+    "Name": "Industry",
+    "DisplayName": "Industry",
+    "onShrink": false,
+    "styleWidth": "0%",
+    "onShrinkWidth": "0%"
+  },
+  {
+    "Name": "Description",
+    "DisplayName": "Description",
+    "onShrink": false,
+    "styleWidth": "65%",
+    "onShrinkWidth": "0%"
+  }
+]
