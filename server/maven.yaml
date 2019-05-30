@@ -1,0 +1,11 @@
+ name: mymodule
+   type:java
+   build parameters:
+     builder : maven
+     maven opts:
+       command: [ clean, verify ]
+       profiles:
+           buildProfile
+       defines:
+          skipTests: true
+     build result: target/*.war
